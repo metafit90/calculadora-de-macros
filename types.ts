@@ -63,6 +63,9 @@ export interface MacroResult {
   protein: number;
   fat: number;
   carbs: number;
+  proteinPerc: number;
+  carbsPerc: number;
+  fatPerc: number;
   formulaUsed: 'Mifflin-St Jeor' | 'Katch-McArdle';
   weeksToGoal?: number;
 }
@@ -92,5 +95,5 @@ export interface MealPlan {
 export interface CalculationResult {
   macros: MacroResult;
   profile: ProfileResult;
-  mealPlans: MealPlan[]; // New
+  mealPlans: MealPlan[];
 }
