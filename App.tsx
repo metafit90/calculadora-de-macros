@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { jsPDF } from "jspdf";
-import { ActivityLevel, CalculationResult, DietHistory, Discipline, Gender, Goal, TrainingTime, UserData } from './types';
-import { calculateMacros } from './utils';
-import { InputField, PrimaryButton, SelectionCard } from './components/StepWizard';
+import { ActivityLevel, CalculationResult, DietHistory, Discipline, Gender, Goal, TrainingTime, UserData } from './types.ts';
+import { calculateMacros } from './utils.ts';
+import { InputField, PrimaryButton, SelectionCard } from './components/StepWizard.tsx';
 import { Brain, Coffee, Sun, Sunset, Moon, Download, ChevronDown, ChevronUp } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 

@@ -11,7 +11,7 @@ import {
   ProfileResult,
   TrainingTime,
   UserData,
-} from './types';
+} from './types.ts';
 
 const ACTIVITY_MULTIPLIERS: Record<ActivityLevel, number> = {
   [ActivityLevel.Sedentary]: 1.2,
